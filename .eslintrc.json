@@ -1,3 +1,31 @@
 {
-  "extends": "next/core-web-vitals"
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:react/jsx-runtime"
+  ],
+
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier","@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "error"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

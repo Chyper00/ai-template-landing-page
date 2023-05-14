@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "noUnusedVars": true,
+  "noMultipleEmptyLines": true,
+  "noTrailingWhitespace": true,
+  "noWhitespaceBeforeMarker": true
+}
