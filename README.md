@@ -2,7 +2,7 @@
 
 This is a simple landing page project built with Next.js 13, Tailwind CSS, ESLint, Prettier, and Lottie.
 
-<a href="https://ai-template-landing-page.vercel.app/" target="_blank"><h2>Demo</h2></a>
+<a href="https://ai-template-landing-page.vercel.app/" target="_blank">Demo</a>
 
 ## Description
 
