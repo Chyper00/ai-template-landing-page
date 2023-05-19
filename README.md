@@ -2,6 +2,8 @@
 
 This is a simple landing page project built with Next.js 13, Tailwind CSS, ESLint, Prettier, and Lottie.
 
+<a href="https://ai-template-landing-page.vercel.app/" target="_blank"><h2>Demo</h2></a>
+
 ## Description
 
 The Simple Landing Page project serves as a starting point for designing and creating landing pages. It utilizes modern web development tools and libraries to provide a streamlined development experience.
@@ -38,3 +40,5 @@ License
 This project is licensed under the MIT License.
 
 If you find this project helpful and would like to support its development, you can buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/cypher774" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
