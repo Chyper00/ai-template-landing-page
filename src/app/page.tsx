@@ -2,6 +2,7 @@
 import { FaTwitter, FaInstagram } from 'react-icons/fa';
 import Lottie from 'react-lottie';
 import animationData from './animation.json';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
   const defaultOptions = {
@@ -10,7 +11,11 @@ export default function Home() {
     animationData: animationData,
   };
 
-  const isMobile = window.innerWidth <= 768;
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+  }, []);
 
   const lottieWidth = isMobile ? '100%' : 500;
   const lottieHeight = isMobile ? 'auto' : 500;
