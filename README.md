@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple Landing Page
+
+This is a simple landing page project built with Next.js 13, Tailwind CSS, ESLint, Prettier, and Lottie.
+
+## Description
+
+The Simple Landing Page project serves as a starting point for designing and creating landing pages. It utilizes modern web development tools and libraries to provide a streamlined development experience.
+
+## Technologies Used
+
+- Next.js 13: Next.js is a React framework that enables server-side rendering and provides an intuitive routing system for building single-page applications.
+
+- Tailwind CSS: Tailwind CSS is a highly customizable CSS framework that enables rapid UI development by providing a utility-first approach and a wide range of pre-built components.
+
+- ESLint: ESLint is a popular JavaScript linter that helps enforce coding standards and identify common errors or potential bugs in the codebase.
+
+- Prettier: Prettier is an opinionated code formatter that ensures consistent code style across the project, making the codebase more readable and maintainable.
+
+- Lottie: Lottie is a library that allows you to render Adobe After Effects animations in the web using JSON files. It brings life and interactivity to your landing page by integrating captivating animations.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/your-username/simple-landing-page.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+git npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The landing page will be accessible at http://localhost:3000.
 
-## Learn More
+License
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you find this project helpful and would like to support its development, you can buy me a coffee!
