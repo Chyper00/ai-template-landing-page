@@ -23,7 +23,7 @@ The Simple Landing Page project serves as a starting point for designing and cre
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/simple-landing-page.git
+git clone git@github.com:Chyper00/ai-template-landing-page.git
 ```
 
 ```bash
